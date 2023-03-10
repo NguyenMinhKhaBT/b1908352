@@ -1,0 +1,74 @@
+:root{
+    --bg1 :#bd53e7;
+    --bg2 :#33aff1;
+    --bg : #D7E1EC;
+    
+}
+.nen{
+    background-color: aqua;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw ;
+    height: 100vh;
+    text-align: center;
+
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    width: 350px;
+    height: 450px;
+    border-radius: 10px;
+    background: linear-gradient(var(--bg1),var(--bg2));
+    margin-left: 40%;
+    margin-top: 10%;
+}
+.container img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    margin: 30px 30px 80px 90px;
+    cursor: pointer;
+    position: relative;
+}
+.container h2{
+    color: bisque;
+    text-align: center;
+}
+.container p{
+    color: rgb(2, 14, 26);
+    margin: 0 30px 12px;
+    text-align: center;
+}
+.btn-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px 12px;
+}
+.btn-container button{
+    height: 35px;
+    width: 150px;
+    border: none;
+    margin-right: 12px;
+    border-radius: 5px;
+    columns: #333333;
+    cursor: pointer;
+}
+.icon-social{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+.icon-social i{
+    padding: 13px;
+    color: var(--bg1);
+    background: #FFF;
+    border-radius: 50%;
+    margin: 5px 0 0 12px;
+}
